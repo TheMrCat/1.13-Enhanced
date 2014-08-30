@@ -1,0 +1,169 @@
+<model>
+    <box id="root" w="0" h="0" d="0">
+        <rotate>
+            <y type="rand" min="180" max="180"/>
+        </rotate>
+        <box id="Body" w="0.280" h="0.244" d="0.360">
+            <translate>
+                <y type="rand" min="0.224" max="0.224"/>
+            </translate>
+            
+            <textures>
+                <front  x="0.28125" y="0.1875" w="0.09375" h="0.1875"/>
+                <back x="0.28125" y="0.1875" w="0.09375" h="0.1875"/>
+                <right x="0.375"y="0" w="0.09375" h="0.1875"/>
+                <left x="0.1875"y="0" w="0.09375" h="0.1875"/>
+                <top x="0.28125" y="0" w="0.09375" h="0.1875"/>
+                <bottom x="0" y="0.28125" w="0.09375" h="0.1875"/>
+            </textures>
+        </box>
+        <box id="Head" w="0.234" h="0.22" d="0.203">
+            <textures>
+                <front x="0" y="0.125" w="0.0625" h="0.125"/>
+                <back x="0" y="0" w="0.0625" h="0.125"/>
+                <right x="0.25"y="0" w="0.0625" h="0.125"/>
+                <left x="0.125"y="0" w="0.0625" h="0.125"/>
+                <top x="0" y="0.125" w="0.0625" h="0.125"/>
+                <bottom x="0" y="0.125" w="0.0625" h="0.125"/>
+            </textures>
+            <translate>
+                <x type="rand" min="0" max="0"/>
+                <y type="rand" min="0.285" max="0.285"/>
+                <z type="rand" min="0.192" max="0.192"/>
+            </translate>            
+        </box>
+        
+        <box id="tail" w="0.133" h="0.133" d="0.133">
+            <textures>
+                <front x="0.46875" y="0" w="0.0625" h="0.125"/>
+                <back x="0.46875" y="0" w="0.0625" h="0.125"/>
+                <right x="0.46875"y="0" w="0.0625" h="0.125"/>
+                <left x="0.46875"y="0" w="0.0625" h="0.125"/>
+                <top x="0.46875"y="0" w="0.0625" h="0.125"/>
+                <bottom x="0.46875"y="0" w="0.0625" h="0.125"/>
+            </textures>
+            <translate>
+                <x type="rand" min="0" max="0"/>
+                <y type="rand" min="0.300" max="0.322"/>
+                <z type="rand" min="-0.163" max="-0.163"/>
+            </translate>
+        </box>
+        
+        <box id="left_ear" w="0.021" h="0.199" d="0.090">
+            <textures>
+                <front x="0.71875" y="0" w="0.015625" h="0.1875"/>
+                <back x="0.71875" y="0" w="0.015625" h="0.1875"/>
+                <right x="0.59375"y="0" w="0.046875" h="0.1875"/>
+                <left x="0.640625"y="0" w="0.046875" h="0.1875"/>
+                <top x="0.75"y="0" w="0.015625" h="0.09375"/>
+                <bottom x="0.75"y="0" w="0.015625" h="0.09375"/>
+            </textures>
+            <translate>
+                <x type="rand" min="0.097" max="0.097"/>
+                <y type="rand" min="0.441" max="0.441"/>
+                <z type="rand" min="0.137" max="0.137"/>
+            </translate>
+            
+        </box>
+        
+        <box id="right_ear" w="0.021" h="0.119" d="0.090">
+            <textures>
+                <front x="0.71875" y="0" w="0.015625" h="0.1875"/>
+                <back x="0.71875" y="0" w="0.015625" h="0.1875"/>
+				<right x="0.640625"y="0" w="0.046875" h="0.1875"/>
+                <left x="0.59375"y="0" w="0.046875" h="0.1875"/>
+                
+                <top x="0.75"y="0" w="0.015625" h="0.09375"/>
+                <bottom x="0.75"y="0" w="0.015625" h="0.09375"/>
+            </textures>
+            <translate>
+                <x type="rand" min="-0.097" max="-0.097"/>
+                <y type="rand" min="0.441" max="0.441"/>
+                <z type="rand" min="0.137" max="0.137"/>
+            </translate>
+            
+        </box>
+        
+        <box id="left_front_leg" w="0.089" h="0.109" d="0.089">
+            <textures>
+                <front x="0.546875" y="0.21875" w="0.03125" h="0.0625"/>
+                <back x="0.546875" y="0" w="0.03125" h="0.0625"/>
+                <right x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <left x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <top x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <bottom x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+            </textures>
+            <translate>
+                <x type="rand" min="0.096" max="0.096"/>
+                <y type="rand" min="0.047" max="0.047"/>
+                <z type="rand" min="0.137" max="0.137"/>
+            </translate>
+            <rotate>
+                <x type="sin" min="-45" max="45"/>
+            </rotate>
+            
+        </box>
+        
+        
+        
+        <box id="right_front_leg" w="0.089" h="0.109" d="0.089">
+            <textures>
+                <front x="0.546875" y="0.21875" w="0.03125" h="0.0625"/>
+                <back x="0.546875" y="0" w="0.03125" h="0.0625"/>
+                <right x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <left x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <top x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <bottom x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+            </textures>
+            <translate>
+                <x type="rand" min="-0.095" max="-0.095"/>
+                <y type="rand" min="0.047" max="0.047"/>
+                <z type="rand" min="0.137" max="0.137"/>
+            </translate>
+            <rotate>
+                <x type="sin" min="45" max="-45"/>
+            </rotate>
+            
+        </box>
+        
+        
+        <box id="left_back_leg" w="0.097" h="0.101" d="0.177">
+            <textures>
+                <front x="0.546875" y="0.21875" w="0.03125" h="0.0625"/>
+                <back x="0.546875" y="0" w="0.03125" h="0.0625"/>
+                <right x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <left x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <top x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <bottom x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+            </textures>
+            <translate>
+                <x type="rand" min="0.091" max="0.091"/>
+                <y type="rand" min="0.051" max="0.051"/>
+                <z type="rand" min="-0.090" max="-0.090"/>
+            </translate>
+            <rotate>
+                <x type="sin" min="45" max="-45"/>
+            </rotate>
+            
+        </box>
+        
+        <box id="right_back_leg" w="0.097" h="0.101" d="0.177">
+            <textures>
+                <front x="0.546875" y="0.21875" w="0.03125" h="0.0625"/>
+                <back x="0.546875" y="0" w="0.03125" h="0.0625"/>
+                <right x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <left x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <top x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+                <bottom x="0.59375"y="0.03125" w="0.03125" h="0.1875"/>
+            </textures>
+            <translate>
+                <x type="rand" min="-0.089" max="-0.089"/>
+                <y type="rand" min="0.051" max="0.051"/>
+                <z type="rand" min="-0.091" max="-0.091"/>
+            </translate>
+            <rotate>
+                <x type="sin" min="-45" max="45"/>
+            </rotate>
+        </box>
+    </box>
+</model>

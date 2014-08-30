@@ -1,0 +1,15 @@
+<mob>
+	<model type="md5">
+		<file>vampire</file>
+		<texture>vampire</texture>
+		<idle>0</idle>
+		<walk>0</walk>
+	</model>
+
+	<script>vampire</script>
+	<speed>0.12</speed>
+	<width>0.2</width>
+	<height>1.8</height>
+	<health>20</health>
+	<dark>true</dark>
+</mob>

@@ -1,0 +1,18 @@
+<mob>
+	<model type="xml">
+		<file>pumpkinhead_model</file>
+		<texture>pumpkinhead_texture</texture>
+
+		<animated>3</animated>
+		<animated>4</animated>
+		<animated>5</animated>
+		<animated>6</animated>
+	</model>
+
+	<script>pumpkin</script>
+	<speed>0.32</speed>
+	<width>0.2</width>
+	<height>1.8</height>
+	<health>16</health>
+	<dark>true</dark>
+</mob>

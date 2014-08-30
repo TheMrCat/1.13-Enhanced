@@ -1,0 +1,17 @@
+<mob>
+	<model type="xml">
+		<file>antelope_model</file>
+		<texture>antelope_texture</texture>
+
+		<animated>left_front_leg</animated>
+		<animated>right_front_leg</animated>
+		<animated>left_back_leg</animated>
+		<animated>right_back_leg</animated>
+	</model>
+
+	<script>antelope</script>
+	<speed>0.32</speed>
+	<width>0.72</width>
+	<height>1.36</height>
+	<health>8</health>
+</mob>

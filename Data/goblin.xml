@@ -1,0 +1,19 @@
+<mob>
+	<model type="xml">
+		<file>goblin</file>
+		<texture>goblin_texture</texture>
+
+		<animated>left_front_leg</animated>
+		<animated>right_front_leg</animated>
+		<animated>left_back_leg</animated>
+		<animated>right_back_leg</animated>
+	</model>
+
+	<script>goblin</script>
+	<speed>0.36</speed>
+	<width>0.4</width>
+	<height>1.7</height>
+	<health>6</health>
+	<doors>true</doors>
+	<dark>true</dark>
+</mob>

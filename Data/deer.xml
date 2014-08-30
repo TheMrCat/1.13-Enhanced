@@ -1,0 +1,17 @@
+<mob>
+	<model type="xml">
+		<file>deer_model</file>
+		<texture>deer_texture</texture>
+
+		<animated>left_front_leg</animated>
+		<animated>right_front_leg</animated>
+		<animated>left_back_leg</animated>
+		<animated>right_back_leg</animated>
+	</model>
+
+	<script>deer</script>
+	<speed>0.32</speed>
+	<width>0.9</width>
+	<height>1.7</height>
+	<health>9</health>
+</mob>

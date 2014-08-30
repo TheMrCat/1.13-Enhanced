@@ -1,0 +1,18 @@
+<mob>
+	<model type="xml">
+		<file>bad_model</file>
+		<texture>bad_texture</texture>
+
+		<animated>tail</animated>
+		<animated>left_front_leg</animated>
+		<animated>right_front_leg</animated>
+		<animated>left_back_leg</animated>
+		<animated>right_back_leg</animated>
+	</model>
+
+	<script>bad</script>
+	<speed>0.32</speed>
+	<width>0.55</width>
+	<height>0.9</height>
+	<health>9</health>
+</mob>

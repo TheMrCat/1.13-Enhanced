@@ -1,0 +1,15 @@
+<mob>
+	<model type="md5">
+		<file>player</file>
+		<texture>villager</texture>
+		<idle>0</idle>
+		<walk>1</walk>
+	</model>
+
+	<script>villager</script>
+    <speed>0.32</speed>
+    <width>0.4</width>
+    <height>1.8</height>
+    <health>16</health>
+	<doors>true</doors>
+</mob>

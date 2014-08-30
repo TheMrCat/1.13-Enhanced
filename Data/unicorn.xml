@@ -1,0 +1,18 @@
+<mob class="Unicorn">
+	<model type="xml">
+		<file>unicorn_model</file>
+		<texture>unicorn_texture</texture>
+
+		<animated>left_front_leg</animated>
+		<animated>right_front_leg</animated>
+		<animated>left_back_leg</animated>
+		<animated>right_back_leg</animated>
+	</model>
+
+	<script>unicorn</script>
+	<speed>0.32</speed>
+	<width>0.9</width>
+	<height>1.7</height>
+	<health>17</health>
+	<spawn>120</spawn>
+</mob>

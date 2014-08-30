@@ -1,0 +1,17 @@
+<mob>
+	<model type="xml">
+		<file>lowland_model</file>
+		<texture>lowland_texture</texture>
+
+		<animated>left_front_leg</animated>
+		<animated>right_front_leg</animated>
+		<animated>left_back_leg</animated>
+		<animated>right_back_leg</animated>
+	</model>
+
+	<script>lowland</script>
+	<speed>0.32</speed>
+	<width>0.9</width>
+	<height>1.7</height>
+	<health>14</health>
+</mob>

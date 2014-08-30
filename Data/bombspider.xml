@@ -1,0 +1,13 @@
+<mob class="BombSpider">
+	<model type="xml">
+		<file>bombspider_model</file>
+		<texture>bombspider_texture</texture>
+	</model>
+
+	<script>aggressive</script>
+	<speed>0.32</speed>
+	<width>0.9</width>
+	<height>1.0</height>
+	<health>8</health>
+	<dark>true</dark>
+</mob>

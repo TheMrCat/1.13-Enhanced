@@ -1,0 +1,17 @@
+<mob>
+	<model type="xml">
+		<file>caribou_model</file>
+		<texture>caribou_texture</texture>
+
+		<animated>left_front_leg</animated>
+		<animated>right_front_leg</animated>
+		<animated>left_back_leg</animated>
+		<animated>right_back_leg</animated>
+	</model>
+
+	<script>caribou</script>
+	<speed>0.32</speed>
+	<width>1.1</width>
+	<height>2.1</height>
+	<health>12</health>
+</mob>
