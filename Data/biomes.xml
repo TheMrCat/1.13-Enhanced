@@ -116,8 +116,8 @@
         <top>163</top>
 		<below>3</below>
         
-        <patch bias="0.2" scale="9" map="2.1" max"91">164</patch>
-        <patch bias="0.2" scale="9" map="2.9" max"91">165</patch>
+        <patch bias="0.2" scale="9" map="2.1" max="91">164</patch>
+        <patch bias="0.2" scale="9" map="2.9" max="91">165</patch>
         <patch bias="-1" scale="20" map="0.1" min="92">204</patch>
         
         <spawn id="1">50</spawn>
