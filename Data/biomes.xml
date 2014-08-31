@@ -88,7 +88,7 @@
             	<structure occur="50">spruce2</structure>
 		<structure occur="130">shrub4</structure>
 		<structure occur="1">tower</structure>
-            <mob occur="5" minGroup="2" maxGroup="4">caribou</mob>
+            <mob occur="5" minGroup="2" maxGroup="4">deer</mob>
             <mob occur="1" minGroup="1" maxGroup="2">boar</mob>
         </natural>
     </biome>
@@ -179,7 +179,7 @@
             	<structure occur="8">svbush1</structure>
             	<structure occur="8">svbush2</structure>
 		<structure occur="8">svbush3</structure>
-            <mob occur="3" minGroup="2" maxGroup="4">antelope</mob>
+            <mob occur="3" minGroup="2" maxGroup="4">unicorn</mob>
             <mob occur="2" minGroup="2" maxGroup="4">boar</mob>
         </natural>
     </biome>
@@ -202,7 +202,7 @@
 		<structure occur="5">boulder4</structure>
 		<structure occur="25">tinyspruce1</structure>
 		<structure occur="25">tinyspruce2</structure>
-            <mob occur="1" minGroup="2" maxGroup="4">caribou</mob>
+            <mob occur="1" minGroup="2" maxGroup="4">deer</mob>
         </natural>
     </biome>
 </biomes>
