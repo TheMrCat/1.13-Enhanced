@@ -1,0 +1,13 @@
+<mblauncher>
+<mod>
+<name>MBLauncher</name>
+<creator>MrCat</creator>
+<version>1.0</version>
+<mbvc>128</mbvc>
+<topic>https://www.space-walrus.com/topic/2368/113-enhanced-mod</topic>
+<description>This mod enhances some gameplay, increasing biome and mob diversity while staying as close to pure Minebuilder as possible.</description>
+<features>Two new mobs, mob behaviour fixes, biome improvements and some general fixes.</features>
+<hasicon>false</hasicon>
+<hasscreenshots>false</hasscreenshots>
+</mod>
+</mblauncher>

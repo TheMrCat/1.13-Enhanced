@@ -8,6 +8,7 @@ var MOB_DMG_NORMAL = 1;
 
 System.loadScript("aggressive");
 System.loadScript("sounds");
+System.setSuper("tnt", "aggressive");
 
 function tnt_onUpdate() {
 	if (System.rand() % 100) {

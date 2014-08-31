@@ -1,4 +1,22 @@
 <faqs>
+  <catefory name="Mod">
+    <faq>
+      <q>What is this Mod?</q>
+      <a>It's the 1.13 Enhanced Mod. It enhances some gameplay, increasing biome and mob diversity while staying as close to pure Minebuilder as possible.</a>
+    </faq>
+    <faq>
+      <q>Who made this Mod?</q>
+      <a>MrCat, formerly known as 'Hm, what name? D'oh!'. A modder who is also one of the most active members of the forum.</a>
+    </faq>
+    <faq>
+      <q>Why are the new mobs/the biome changes not showing up?</q>
+      <a>You need to start a new world since worlds always use the same terrain generator and it's not possible for me to change that.</a>
+    </faq>
+    <faq>
+      <q>What new recipes are there?</q>
+      <a>Just one: You can now smelt metal blocks to get your ingots back.</a>
+    </faq>
+  </category>
   <category name="General">
     <faq>
       <q>Who made this game?</q>

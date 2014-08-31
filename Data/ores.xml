@@ -46,4 +46,44 @@
         <largest>6</largest>
         <rarity>230</rarity>
     </ore>
+    
+    <ore id="21">
+        <deepest>6</deepest>
+        <highest>50</highest>
+        <smallest>1</smallest>
+        <largest>4</largest>
+        <rarity>75</rarity>
+    </ore>
+    
+    <ore id="111">
+        <deepest>1</deepest>
+        <highest>14</highest>
+        <smallest>10</smallest>
+        <largest>20</largest>
+        <rarity>140</rarity>
+    </ore>
+    
+    <ore id="13">
+        <deepest>45</deepest>
+        <highest>120</highest>
+        <smallest>1</smallest>
+        <largest>16</largest>
+        <rarity>250</rarity>
+    </ore>
+    
+    <ore id="4">
+        <deepest>1</deepest>
+        <highest>120</highest>
+        <smallest>1</smallest>
+        <largest>3</largest>
+        <rarity>350</rarity>
+    </ore>
+    
+    <ore id="174">
+        <deepest>1</deepest>
+        <highest>120</highest>
+        <smallest>1</smallest>
+        <largest>3</largest>
+        <rarity>350</rarity>
+    </ore>
 </ores>

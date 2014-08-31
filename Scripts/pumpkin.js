@@ -3,11 +3,11 @@
 /* Zombie like monster       */
 /*****************************/
 
-
 var MOB_DMG_NORMAL = 2;
 
 System.loadScript("aggressive");
 System.loadScript("sounds");
+System.setSuper("pumpkin", "aggressive");
 
 function pumpkin_onUpdate() {
     mobsound_ambience(self, "pumpkin", 3);

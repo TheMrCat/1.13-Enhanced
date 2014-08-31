@@ -1,15 +1,16 @@
 <biomes>
 	<biome id="0" name="ocean">
         <top>169</top>
-		<below>24</below>
-		<spawn id="0">90</spawn>
-		<spawn id="1">10</spawn>
+	<below>24</below>
+	<spawn id="0">90</spawn>
+	<spawn id="1">10</spawn>
 	</biome>
 
     <biome id="1" name="plains">
-	<patch bias="0.5" scale="8" map="2.1" max="76">175</patch>
-        <patch bias="0.5" scale="12" map="6.4" min="78" max="87">3</patch>
-        <patch bias="-1" scale="20" map="0.1" min="88">204</patch>
+	<patch bias="0.5" scale="8" map="2.1" max="77">175</patch>
+        <patch bias="0.5" scale="2" map="6.4" min="80" max="87">3</patch>
+        <patch bias="0.5" scale="2" map="6.5" min="78" max="87">152</patch>
+        <patch bias="-1" scale="20" map="0.1" min="89">204</patch>
 
         <top depth="1">2</top>
         <below depth="3">3</below>
@@ -34,8 +35,9 @@
 		<structure occur="3">flowers2</structure>
 		<structure occur="3">flowers3</structure>
 		<structure occur="3">flowers4</structure>
+		<structure occur="1">stonehenge</structure>
             <mob occur="3" minGroup="2" maxGroup="3">bunny</mob>
-            <mob occur="3" minGroup="1" maxGroup="3">boar</mob>
+            <mob occur="2" minGroup="2" maxGroup="3">unicorn</mob>
         </natural>
 
         <village>
@@ -85,8 +87,8 @@
             	<structure occur="50">spruce1</structure>
             	<structure occur="50">spruce2</structure>
 		<structure occur="130">shrub4</structure>
-		<structure occur="0.5">tower</structure>
-            <mob occur="7" minGroup="2" maxGroup="4">deer</mob>
+		<structure occur="1">tower</structure>
+            <mob occur="5" minGroup="2" maxGroup="4">caribou</mob>
             <mob occur="1" minGroup="1" maxGroup="2">boar</mob>
         </natural>
     </biome>
@@ -95,18 +97,17 @@
         <top>152</top>
 	<below>3</below>
 
-        <patch bias="-1" scale="20" map="0.1" min="85">204</patch>
+        <patch bias="-1" scale="20" map="0.1" min="86">204</patch>
        
         <spawn id="1">30</spawn>
         <spawn id="3">50</spawn>
         
         <natural>
-            	<structure occur="80">temperate1</structure>
-            	<structure occur="80">temperate2</structure>
-		<structure occur="80">temperate3</structure>
-            	<structure occur="80">oak1</structure>
-            	<structure occur="40">oak2</structure>
-		<structure occur="80">lollipopoak</structure>
+            	<structure occur="90">temperate1</structure>
+            	<structure occur="90">temperate2</structure>
+		<structure occur="90">temperate3</structure>
+            	<structure occur="90">oak1</structure>
+		<structure occur="90">lollipopoak</structure>
             <mob occur="3" minGroup="2" maxGroup="4">deer</mob>
             <mob occur="1" minGroup="1" maxGroup="2">boar</mob>
         </natural>
@@ -118,7 +119,7 @@
         
         <patch bias="0.2" scale="9" map="2.1" max="91">164</patch>
         <patch bias="0.2" scale="9" map="2.9" max="91">165</patch>
-        <patch bias="-1" scale="20" map="0.1" min="92">204</patch>
+        <patch bias="-1" scale="20" map="0.1" min="93">204</patch>
         
         <spawn id="1">50</spawn>
         <spawn id="4">50</spawn>
@@ -126,16 +127,18 @@
         <natural>
 		<structure occur="100">shrub1</structure>
 		<structure occur="100">shrub2</structure>
-		<structure occur="8">slsvshrub1</structure>
-		<structure occur="8">slsvshrub2</structure>
-		<structure occur="8">slrfshrub1</structure>
-		<structure occur="8">slrfshrub2</structure>
+		<structure occur="50">slsvshrub1</structure>
+		<structure occur="50">slsvshrub2</structure>
+		<structure occur="50">slrfshrub1</structure>
+		<structure occur="50">slrfshrub2</structure>
+            <mob occur="2" minGroup="2" maxGroup="4">bunny</mob>
         </natural>
     </biome>
 
     <biome id="6" name="desert">
-        <top>12</top>
-		<below>24</below>
+        <top depth="1">12</top>
+	<below depth="2">167</below>
+	<below depth="3">24</below>
         
         <patch bias="0.6" scale="40">169</patch>
         <patch bias="0.6" scale="40">167</patch>
@@ -149,6 +152,7 @@
 		<structure occur="4">cactus3</structure>
 		<structure occur="4">cactus4</structure>
 		<structure occur="4">tinycactus</structure>
+		<structure occur="1">well</structure>
         </natural>
     </biome>
 
@@ -175,7 +179,7 @@
             	<structure occur="8">svbush1</structure>
             	<structure occur="8">svbush2</structure>
 		<structure occur="8">svbush3</structure>
-            <mob occur="1" minGroup="1" maxGroup="1">unicorn</mob>
+            <mob occur="1" minGroup="1" maxGroup="1">antelope</mob>
             <mob occur="2" minGroup="2" maxGroup="4">boar</mob>
         </natural>
     </biome>
@@ -183,9 +187,9 @@
     <biome id="9" name="tundra">
         <top>158</top>
         
-        <patch bias="0.5" scale="4" map="3.1">156</patch>
-        <patch bias="0.3" scale="4" map="3.5">157</patch>
-        <patch bias="-1" scale="20" map="0.1" min="82">204</patch>
+        <patch bias="0.5" scale="4" map="3.1" max="82">156</patch>
+        <patch bias="0.3" scale="4" map="3.5" max="82">157</patch>
+        <patch bias="-1" scale="20" map="0.1" min="83">204</patch>
         
         <spawn id="1">50</spawn>
         <spawn id="9">50</spawn>
@@ -196,9 +200,9 @@
 		<structure occur="5">boulder2</structure>
 		<structure occur="5">boulder3</structure>
 		<structure occur="5">boulder4</structure>
-		<structure occur="4">tinyspruce1</structure>
-		<structure occur="4">tinyspruce2</structure>
-            <mob occur="1" minGroup="1" maxGroup="1">unicorn</mob>
+		<structure occur="25">tinyspruce1</structure>
+		<structure occur="25">tinyspruce2</structure>
+            <mob occur="1" minGroup="2" maxGroup="4">caribou</mob>
         </natural>
     </biome>
 </biomes>
