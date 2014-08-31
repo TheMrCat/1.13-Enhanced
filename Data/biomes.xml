@@ -127,10 +127,10 @@
         <natural>
 		<structure occur="100">shrub1</structure>
 		<structure occur="100">shrub2</structure>
-		<structure occur="50">slsvshrub1</structure>
-		<structure occur="50">slsvshrub2</structure>
-		<structure occur="50">slrfshrub1</structure>
-		<structure occur="50">slrfshrub2</structure>
+		<structure occur="50">slsvbush1</structure>
+		<structure occur="50">slsvbush2</structure>
+		<structure occur="50">slrfbush1</structure>
+		<structure occur="50">slrfbush2</structure>
             <mob occur="2" minGroup="2" maxGroup="4">bunny</mob>
         </natural>
     </biome>
@@ -179,7 +179,7 @@
             	<structure occur="8">svbush1</structure>
             	<structure occur="8">svbush2</structure>
 		<structure occur="8">svbush3</structure>
-            <mob occur="1" minGroup="1" maxGroup="1">antelope</mob>
+            <mob occur="3" minGroup="2" maxGroup="4">antelope</mob>
             <mob occur="2" minGroup="2" maxGroup="4">boar</mob>
         </natural>
     </biome>
